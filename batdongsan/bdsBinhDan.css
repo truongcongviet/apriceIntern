@@ -1,0 +1,250 @@
+*{
+    margin:0px;
+    padding: 0px;
+}
+
+.header{
+height: 60px;
+background-color:white;
+width: 100%;
+}
+.icon{
+    width: 10%;
+    height: 60px;
+    float: left;
+    position: absolute;
+    
+}
+.menu{
+    width: 108%;
+   
+}
+.left_menu{
+    width: 40%;
+    float: right;
+}
+.header .menu .left_menu a{
+    float: left;
+    padding-top: 16px;
+    color: rgb(41, 35, 35);
+    font-size: 20px;
+    text-decoration: none;
+    width: 20%;
+    text-align: center; 
+
+}
+.header .menu .left_menu button{
+
+    border: 2px solid #003399;
+    margin-top: 10px;
+    padding: 6px;
+    font-size: 18px;
+    width: 19%;
+    height: 35px;
+    text-align: center;
+    border-radius: 10px;
+    background-color: #003399;
+    color: white;
+}
+
+.main{
+    background-image:  linear-gradient(
+        rgba(0, 0, 0, 0.4), 
+        rgba(0, 0, 0, 0.4)
+      ),url('./image/novaland.jpg');
+    height: 600px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+
+    
+}
+.content_top{
+    margin-bottom: 65px;
+}
+.main .content_top p{
+    padding-top: 30px;
+    color: black;
+    text-align: center;
+    font-size: 43px;
+    font-weight: 50px;
+    color: white;
+}
+.main .content_main{
+    position: relative;
+    width: 60%;
+    height: 165px;
+    background-color: rgb(255, 255, 255,0.4);
+    padding-top: 5px;
+    margin-top: 80px;
+    margin: auto;
+}
+.top{
+       
+    margin: 6px 20px;
+    padding: 30px 0;
+    background: white;
+    font-size: 15px;
+    border: 1px solid white;
+    height: 16px;
+    border-radius: 5px;
+  
+}
+.top-1{
+    margin-top: -31px;
+    width: 30%;
+    display: flex;
+    float: left;
+    background-color: #E8E8E8;
+    height: 78px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    
+}
+.top-1 button:first-child{
+    border: 1px solid #3366CC;
+    background-color: #3366CC;
+    color: white;
+    border-radius: 5px;
+    margin: 15px;
+    
+    
+}
+.top-1 button{
+    height: 47px;
+    width: 43%;
+    /* margin: 22px; */
+    line-height: 30px;
+    border: 1px solid white;
+    background-color: white;
+    border-radius: 5px;
+    font-size: 21px;
+    margin-top: 15px;
+
+}
+
+.top-2{
+    width: 70%;
+    float: right;
+    margin-top: -31px;
+    display: flex;
+    height: 78px;
+}
+.top-2 select{
+    border: 1px solid white;
+    text-align: center;
+    font-size: 20px;
+    color:  black;
+    margin-left: 15px;
+}
+.top-2 i{
+    font-size: 35px;
+    padding: 0px 15px;
+    margin-top: 20px;
+    color: #7c7878;
+}
+
+.search{
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    height: 37px;
+    margin-top: 20px;
+    width: 57%;
+    /* margin-left: 25px; */
+    padding-left: 10px;
+    position: relative;
+}
+.search i{
+    font-size: 35px;
+    padding: 0px 15px;
+    margin-top: 0px;
+    color: #7c7878;
+}
+
+.search input{
+    border: 1px solid white;
+    font-size: 18px;
+    height: 40px;
+    position: absolute;
+    width: 250px;
+}
+.dow{
+    width: 96%;
+    margin: auto;
+    margin-top: 15px;
+    
+}
+.dow select{
+    border: 1px solid white;
+    border-radius: 5px;
+    height: 43px;
+    width: 14%;
+    font-size: 20px;
+    margin-right: 15px;
+    color: #7c7878;
+
+}
+.button-1{
+    border: 3px solid #3366CC;
+    color: #3366CC;
+    width: 13%;
+    height: 43px;
+    border-radius: 5px;
+    font-size: 25px;
+    margin-right: 17px;
+    padding-top: 0px;
+}
+
+
+.button-2{
+    width: 21%;
+    height: 42px;
+    border-radius: 5px;
+    font-size: 25px;
+    border: 1px solid #3366CC;
+    background-color: #3366CC;
+    color: white;
+    font-weight: 5px;
+    padding-top: 3px;
+} 
+
+.content_image{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    margin-top: 100px;
+}
+.content_image p{
+    color: white;
+    font-size: 18px;
+    padding-bottom: 20px;
+}
+
+.content_image img{
+    width: 15%;
+    margin-right: 15px;
+}
+
+
+.footer{
+    width: 100%;
+    text-align: center;
+    line-height: 35px;
+    margin-top: 10px;
+    font-size: 17px;
+   
+}
+#content{
+   width: 80%;
+   float: left;
+   margin-left: 160px;
+}
+.footer img{
+    width: 7%;
+    float: right;
+    padding: 6px 3px;
+    margin: 31px 10px;
+    padding-top: 30px;
+
+}

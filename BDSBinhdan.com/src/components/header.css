@@ -1,0 +1,33 @@
+.header {
+    padding: 5px;
+}
+.header .logo img {
+    width: 50%;
+    height: auto;
+}
+.btn-primary {
+    background: #274983;
+}
+
+.btn-primary:hover {
+    background: #1b335b;
+}
+
+.btn-white {
+    background: white;
+}
+
+.btn-white:hover {
+    background: #f9f9f9;
+}
+
+/* bg */
+
+.bg-white {
+    background: white;
+}
+
+/* end bg */
+.input-group-text{
+    background: white;
+}
